@@ -1,0 +1,343 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fb;
+}
+
+/* Main Container */
+.container {
+  width: 100%;
+}
+
+/* Header */
+.header {
+  background: linear-gradient(to right, #0f172a, #1e3a8a);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  position: sticky;
+  top: 0;
+}
+
+/* Logo */
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  gap: 25px;
+}
+
+/* Navbar Links */
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 0.3s;
+}
+
+/* Navbar Hover */
+.navbar a:hover {
+  color: #93c5fd;
+}
+
+/* Login Button */
+.login-btn {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Login Hover */
+.login-btn:hover {
+  background-color: #1d4ed8;
+  transform: scale(1.05);
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 50px;
+  background: linear-gradient(to right, #dbeafe, #eff6ff);
+}
+
+/* Hero Content */
+.hero-content {
+  flex: 1;
+}
+
+/* Small Heading */
+.small-title {
+  color: #2563eb;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+/* Main Heading */
+.hero-content h1 {
+  font-size: 55px;
+  line-height: 1.2;
+  color: #0f172a;
+  margin-bottom: 25px;
+}
+
+/* Hero Paragraph */
+.hero-content p {
+  font-size: 18px;
+  color: #475569;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+
+/* Hero Buttons */
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+/* Start Button */
+.start-btn {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+/* Start Button Hover */
+.start-btn:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-3px);
+}
+
+/* Learn Button */
+.learn-btn {
+  text-decoration: none;
+  background-color: white;
+  color: #2563eb;
+  padding: 14px 28px;
+  border-radius: 30px;
+  border: 2px solid #2563eb;
+  transition: 0.3s;
+}
+
+/* Learn Hover */
+.learn-btn:hover {
+  background-color: #2563eb;
+  color: white;
+}
+
+/* Hero Image */
+.hero-image {
+  flex: 1;
+  text-align: center;
+}
+
+/* Hero Image Tag */
+.hero-image img {
+  width: 90%;
+  border-radius: 20px;
+  box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Features Section */
+.features-section {
+  padding: 80px 50px;
+  text-align: center;
+}
+
+/* Features Heading */
+.features-section h2 {
+  font-size: 40px;
+  margin-bottom: 50px;
+  color: #0f172a;
+}
+
+/* Card Container */
+.card-container {
+  display: flex;
+  gap: 25px;
+}
+
+/* Feature Card */
+.card {
+  background-color: white;
+  padding: 35px;
+  border-radius: 20px;
+  flex: 1;
+  box-shadow: 0px 6px 20px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+/* Card Hover */
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* Icons */
+.icon {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+/* Card Heading */
+.card h3 {
+  margin-bottom: 15px;
+  color: #2563eb;
+}
+
+/* Card Paragraph */
+.card p {
+  color: #475569;
+  line-height: 1.6;
+}
+
+/* Statistics Section */
+.stats-section {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(to right, #2563eb, #1e40af);
+  color: white;
+  padding: 60px 20px;
+}
+
+/* Stat Box */
+.stat-box h2 {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+/* Benefits Section */
+.benefits-section {
+  padding: 80px 50px;
+  background-color: #eff6ff;
+}
+
+/* Benefits Heading */
+.benefits-section h2 {
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+/* Benefits List */
+.benefits-section ul {
+  margin-left: 20px;
+}
+
+/* Benefits Items */
+.benefits-section li {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #334155;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 80px 50px;
+  text-align: center;
+}
+
+/* Contact Heading */
+.contact-section h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+/* Form */
+.contact-form {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Input Fields */
+.contact-form input,
+.contact-form textarea {
+  padding: 15px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+/* Textarea */
+.contact-form textarea {
+  height: 120px;
+}
+
+/* Submit Button */
+.submit-btn {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+/* Submit Hover */
+.submit-btn:hover {
+  background-color: #1d4ed8;
+}
+
+/* Footer */
+.footer {
+  background-color: #0f172a;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .card-container {
+    flex-direction: column;
+  }
+
+  .stats-section {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .hero-content h1 {
+    font-size: 38px;
+  }
+}
